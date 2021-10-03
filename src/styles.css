@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+.square-row {
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.hit {
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
